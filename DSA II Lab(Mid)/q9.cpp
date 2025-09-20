@@ -30,12 +30,14 @@ int main() {
     int K = 1; // minimum break time between activities
 
     // Example activities {start, end, profit}
-    Activity arr[5] = {
+    Activity arr[7] = {
         {1, 3, 50},
         {2, 5, 20},
         {4, 6, 70},
         {6, 7, 60},
-        {5, 8, 30}
+        {5, 8, 30},
+        {7, 9, 40},
+        {8, 10, 80}
     };
 
     // Sort activities by end time
